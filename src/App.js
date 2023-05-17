@@ -20,6 +20,16 @@ export default function App() {
           </Routes>
         </div>
       </div>
+      <p className="article__paragraph note">
+        This is a React Router experience task demo page. Would you like to see{" "}
+        <a
+          className="note_github_link"
+          href="https://github.com/laps78/router-menu-task"
+        >
+          the source
+        </a>
+        ?
+      </p>
     </Router>
   );
 }
